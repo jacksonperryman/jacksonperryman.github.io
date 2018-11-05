@@ -16,6 +16,43 @@
   
   print("Driving {} miles on {} gallons is {} miles per gallon." .format (miles_driven, gallons, mpg))
 </textarea>
+<h1>Rock Paper Scissors</h1>
+<textarea rows="30" cols="90">
+
+        while True:
+        player = str(input("Choose rock, paper, or scissors:" ))
+        player = player.lower()
+        if player == "rock" or player == "paper" or player == "scissors" or player == "gun":
+          print ("player: " + player)
+          break 
+        else:
+          print ("Type valid response")
+      import random 
+      robot = ["rock", "paper", "scissors"]
+      robochoice = random.choice(robot)
+      print ("robot: " + robochoice)
+      
+      if player == robochoice:
+        print ("Tie")
+      if player == "gun":
+        print ("...")
+        print ("BANG")
+        print ("...You Win!")
+      if player == "rock" and robochoice == "scissors":
+        print ("You Win!")
+      if player == "scissors" and robochoice == "paper":
+        print ("You Win!")
+      if player == "paper" and robochoice == "rock":
+        print ("You Win!")
+      if player == "scissors" and robochoice == "rock":
+        print ("You Lose :(")
+      if player == "paper" and robochoice == "scissors":
+        print ("You Lose :(")
+      if player == "rock" and robochoice == "paper":
+        print ("You Lose :(")
+      
+</textarea>
+
 </body>
 
 
