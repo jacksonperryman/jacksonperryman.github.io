@@ -19,7 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
   a {
-    font-family: 'Georgia, serif', cursive;
+    font-family: "Arial Black", Gadget, sans-serif;
     display: inline-block;
     padding: 5px 25px;
     margin: 10px 10px;
@@ -43,7 +43,9 @@ body {
  background-color: rgb(206, 114, 235);
   }
 h1 {
+  text-align: left;
   font-size: 35px;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 body {
