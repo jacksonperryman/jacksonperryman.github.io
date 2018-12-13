@@ -17,10 +17,11 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-#grad {
-    background-image: linear-gradient(rgb(128, 130, 250) pink);
-  }
 body {
+    background-image: linear-gradient(rgb(128, 130, 250) pink, white);
+  }
+
+  body {
   
   line-height: 1; }
 
