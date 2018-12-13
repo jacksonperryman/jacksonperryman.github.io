@@ -19,6 +19,9 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
+    background-image: url("Images/gridbackground.png");
+  }
+body {
   line-height: 1; }
 
 ol, ul {
