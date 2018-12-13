@@ -34,13 +34,13 @@ time, mark, audio, video {
     border-radius: 15px;
     box-shadow: 4px 8px 18px #888888;
     background: rgb(163, 167, 165); /* Old browsers */
-    background: -moz-linear-gradient(top, #89C6B0 0%, #cbebff 47%, #a1dbff 100%);
-    background: -webkit-linear-gradient(top, #89C6B0 0%,#cbebff 47%,#a1dbff 100%);
-    background: linear-gradient(to bottom, #89C6B0 0%,#cbebff 47%,#a1dbff 100%);
+    background: -moz-linear-gradient(top, rgb(39, 240, 213) 0%, #76fa7d 47%, #a1dbff 100%);
+    background: -webkit-linear-gradient(top, rgb(39, 240, 213) 0%, #76fa7d 47%, #a1dbff 100%);
+    background: linear-gradient(to bottom, rgb(39, 240, 213) 0%, #76fa7d 47%, #a1dbff 100%);
   }
 
 body {
-    background-image: linear-gradient(rgb(128, 130, 250) pink, white);
+ background-color: rgb(206, 114, 235);
   }
 
 body {
